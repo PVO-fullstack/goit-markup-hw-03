@@ -282,7 +282,7 @@ a.logo-link,
   padding-right: 30px;
 }
 
-.portfolio:nth-child(2n+1) {
+.portfolio:nth-child(3n+3) {
   padding-right: 0;
 }
 
