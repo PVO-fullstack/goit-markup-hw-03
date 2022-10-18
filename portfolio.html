@@ -9,116 +9,126 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- Шапка -->
     <header>
-      <nav class="nav">
-        <a class="logo-link" href="./index.html"><span class="logo">Web</span>Studio</a>
-        <ul class="nav">
-          <li><a class="nav-link" href="./index.html">Студія</a></li>
-          <li><a class="nav-link curent" href="./portfolio.html">Портфоліо</a></li>
-          <li><a class="nav-link" href="">Контакти</a></li>
+      <div class="conteiner main-nav">
+        <nav class="nav">
+          <a class="logo link" href="./index.html"><span class="logo">Web</span>Studio</a>
+          <ul class="nav list">
+            <li class="item"><a class="nav link" href="./index.html">Студія</a></li>
+            <li class="item"><a class="nav link curent" href="./portfolio.html">Портфоліо</a></li>
+            <li class="item"><a class="nav link" href="">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="adress list">
+          <li class="item">
+            <a class="adress link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a class="adress link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="adress">
-        <li><a class="adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="adress-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
 
     <main>
-      <section>
+      <section class="conteiner">
         <h1 class="hidden">Portfolio</h1>
-        <ul class="buttons-list">
-          <li><button type="button" class="nav-button">Усі</button></li>
-          <li><button type="button" class="nav-button">Веб-сайти</button></li>
-          <li><button type="button" class="nav-button">Додатки</button></li>
-          <li><button type="button" class="nav-button">Дизайн</button></li>
-          <li><button type="button" class="nav-button">Маркетинг</button></li>
+        <ul class="filter list">
+          <li class="item"><button type="button" class="nav-button curent">Усі</button></li>
+          <li class="item"><button type="button" class="nav-button">Веб-сайти</button></li>
+          <li class="item"><button type="button" class="nav-button">Додатки</button></li>
+          <li class="item"><button type="button" class="nav-button">Дизайн</button></li>
+          <li class="item"><button type="button" class="nav-button">Маркетинг</button></li>
         </ul>
-        <ul class="portfolio-list">
-          <li class="portfolio">
+        <ul class="portfolio list">
+          <li class="item">
             <img
               src="./images/portfolio1.jpg"
               alt="Веб-сайт з переліком людей з різними професіями"
               width="370"
               height="294"
             />
-            <h2 class="title-project">Технокряк</h2>
+            <h2 class="title project">Технокряк</h2>
             <p class="product">Веб-сайт</p>
           </li>
-          <li class="portfolio">
+          <li class="item">
             <img
               src="./images/portfolio2.jpg"
               alt="Постер з двома баскетболістами"
               width="370"
               height="294"
             />
-            <h2 class="title-project">Постер New Orlean vs Golden Star</h2>
+            <h2 class="title project">Постер New Orlean vs Golden Star</h2>
             <p class="product">Дизайн</p>
           </li>
-          <li class="portfolio">
+          <li class="item">
             <img
               src="./images/portfolio3.jpg"
               alt="Логотип ресторану морської їжі"
               width="370"
               height="294"
             />
-            <h2 class="title-project">Ресторан Seafood</h2>
+            <h2 class="title project">Ресторан Seafood</h2>
             <p class="product">Додаток</p>
           </li>
-          <li class="portfolio">
+          <li class="item">
             <img src="./images/portfolio4.jpg" alt="Навушники" width="370" height="294" />
-            <h2 class="title-project">Проєкт Prime</h2>
+            <h2 class="title project">Проєкт Prime</h2>
             <p class="product">Маркетинг</p>
           </li>
 
-          <li class="portfolio">
+          <li class="item">
             <img
               src="./images/portfolio5.jpg"
               alt="Дві коробки різного кольору і розміру"
               width="370"
               height="294"
             />
-            <h2 class="title-project">Проєкт Boxes</h2>
+            <h2 class="title project">Проєкт Boxes</h2>
             <p class="product">Додаток</p>
           </li>
-          <li class="portfolio">
+          <li class="item">
             <img
               src="./images/portfolio6.jpg"
               alt="Монітор з картою світу і написом"
               width="370"
               height="294"
             />
-            <h2 class="title-project">Inspiration has no Borders</h2>
+            <h2 class="title project">Inspiration has no Borders</h2>
             <p class="product">Веб-сайт</p>
           </li>
-          <li class="portfolio">
+          <li class="item">
             <img
               src="./images/portfolio7.jpg"
               alt="Розгорнуті дві сторінки журналу"
               width="370"
               height="294"
             />
-            <h2 class="title-project">Видання Limited Edition</h2>
+            <h2 class="title project">Видання Limited Edition</h2>
             <p class="product">Дизайн</p>
           </li>
-          <li class="portfolio">
+          <li class="item">
             <img src="./images/portfolio8.jpg" alt="Ярлик з написом" width="370" height="294" />
-            <h2 class="title-project">Проєкт LAB</h2>
+            <h2 class="title project">Проєкт LAB</h2>
             <p class="product">Маркетинг</p>
           </li>
-          <li class="portfolio">
+          <li class="item">
             <img
               src="./images/portfolio9.jpg"
               alt="Людина працює на ноутбуці"
               width="370"
               height="294"
             />
-            <h2 class="title-project">Growing Business</h2>
+            <h2 class="title project">Growing Business</h2>
             <p class="product">Додаток</p>
           </li>
         </ul>
@@ -127,23 +137,30 @@
 
     <!-- Підвал сторінки -->
     <footer class="footer">
-      <a class="footer-logo" href="./"><span class="logo">Web</span>Studio</a>
+      <div class="conteiner">
+        <a class="footer-logo" href="./"><span class="logo">Web</span>Studio</a>
 
-      <!-- Адреса -->
-      <address>
-        <ul class=address-list>
-          <li class="footer-address">
-            <a class="address-map"
-              href="https://goo.gl/maps/wuJxa6f8Adzccb137"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li class="footer-address"><a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="footer-address"><a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+        <!-- Адреса -->
+        <address>
+          <ul class="address list">
+            <li class="item">
+              <a
+                class="footer-adress"
+                href="https://goo.gl/maps/wuJxa6f8Adzccb137"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li class="item">
+              <a class="footer link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="item">
+              <a class="footer link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
