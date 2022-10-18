@@ -188,6 +188,10 @@ header > .conteiner {
   display: flex;
 }
 
+.features.list .item {
+  width: 270px;
+}
+
 .features.list .item + .item {
   margin-left: 30px;
 }
@@ -211,6 +215,10 @@ header > .conteiner {
 }
 
 /* Чим займаємось */
+
+.section.work {
+  padding-top: 0;
+}
 
 .work.list {
   display: flex;
